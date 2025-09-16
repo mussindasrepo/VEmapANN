@@ -13,6 +13,7 @@ TODO:
 * Check the pressure ratio values, they do not correlate with anything else after reading the csv with pandas.
 * Retrain and evaluate the model using pressure ratio instead of Aircharge in milligrams
 * Check inference speed on low powered hardware
+* Optimize learning rate and scheduler
 
 Model performance:
 * Huber Loss during training: 0.1605
@@ -34,4 +35,4 @@ File description:
 Simply open up the desired Jupyter notebook and run it. Take the requirements.txt into consideration. You need the required packages.
 The inference notebook will load a model that I pretrained whether you trained it yourself by running the training notebook beforehand or not.
 
-You can of course try and replace the testdf_filtered.csv with your own data, keep the metrics and column order in mind.
+You can of course try and replace the testdf_filtered.csv with your own data, keep the metrics and column order and names in mind.
