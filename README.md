@@ -13,7 +13,6 @@ TODO:
 * Check the pressure ratio values, they do not correlate with anything else after reading the csv with pandas.
 * Retrain and evaluate the model using pressure ratio instead of Aircharge in milligrams
 * Check inference speed on low powered hardware
-* Optimize learning rate and scheduler
 
 Model performance:
 * Huber Loss during training: 0.1598
