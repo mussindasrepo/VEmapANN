@@ -16,8 +16,8 @@ TODO:
 * Optimize learning rate and scheduler
 
 Model performance:
-* Huber Loss during training: 0.1605
-* Huber Loss during evaluation: 0.1507
+* Huber Loss during training: 0.1598
+* Huber Loss during evaluation: 0.1596
 
 Model seems to perform on par with what is to be expected on unseen data.
 
