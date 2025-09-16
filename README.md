@@ -18,7 +18,7 @@ Model performance:
 * Huber Loss during training: 0.1598
 * Huber Loss during evaluation: 0.1596
 
-Model seems to perform on par with what is to be expected on unseen data.
+Model seems to perform on par with what is to be expected on unseen data with a RMSE of 5.8% - acceptable but not perfect.
 
 File description:
 * VE_model_training.ipynb - Model training notebook
