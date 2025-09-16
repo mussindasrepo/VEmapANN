@@ -34,4 +34,4 @@ File description:
 Simply open up the desired Jupyter notebook and run it. Take the requirements.txt into consideration. You need the required packages.
 The inference notebook will load a model that I pretrained whether you trained it yourself by running the training notebook beforehand or not.
 
-You can of course try and replace the testdf_filtered.csv with your own data, keep the metrics and column order and names in mind.
+You can of course try and replace the testdf_filtered.csv with your own data, keep the metrics, column order and column names in mind.
