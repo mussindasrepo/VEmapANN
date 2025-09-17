@@ -3,6 +3,8 @@
 This is a project I have worked on over the past year that has gone through several iterations and changes.
 The goal of the project is to create a model that is able to accurately infer volumetric efficiency values by using data gained through ECU logs.
 
+<img width="1058" height="825" alt="testsplitve" src="https://github.com/user-attachments/assets/004efb29-5bda-4cd6-b0f2-964af924233b" />
+
 VE values are used to determine how much of a cylinder is filled with air under certain conditions (e.g. load, RPM). On boosted cars, this value can go above 100% due to the air pressure caused by a turbo or supercharger. For an ECU (Engine Control Unit) determining VE values across various engine load and RPM scenarios is critical to be able to keep a healthy air to fuel ratio.
 
 This model cannot 100% accurately demonstrate how a neural network deployed by car manufacturers would react on potential changes in readout data, as the models, frameworks and techniques they are using are generally opaque.
